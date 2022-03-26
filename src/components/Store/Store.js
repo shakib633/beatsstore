@@ -13,11 +13,13 @@ const Store = () => {
     },[])
 
     const handelAddBtn=(product)=>{
-        console.log(product);
         const newCart=[...cart, product];
         setCart(newCart);
         
     }
+   
+        
+    
 
     return (
         <div className="store"> 

@@ -4,7 +4,7 @@ import React from 'react';
 import './Product.css'
 
 const Product = (props) => {
-    const{product,handelAddBtn}=props
+    const{product,handelAddBtn, handelResetBtn}=props
     const{name, picture, price, company, about}= product;
    
     return (
