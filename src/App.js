@@ -6,6 +6,7 @@ import Store from './components/Store/Store';
 function App() {
   return (
     <div className="App">
+      <Question></Question>
           <Store></Store>
           
          
