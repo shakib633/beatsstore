@@ -24,7 +24,7 @@ const Cart = ({cart}) => {
         }
          <button onClick={getGenarateProduct} className="free-button">Get 1 Free</button>
          <h3>Free Gift:{iteam.name}</h3>
-         <button onClick={resetCart} className="reset-button">Reset</button>
+         <button onClick={resetCart}>Reset</button>
     
         </div>
     );

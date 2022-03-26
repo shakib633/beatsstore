@@ -1,2 +1,2 @@
 # Beats Store
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [https://beats-store.netlify.app/](https://beats-store.netlify.app/) to view this site  in your browser.
