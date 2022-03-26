@@ -1,0 +1,41 @@
+.product img{
+    width: 250px;
+    height:250px;
+    padding: 12px;
+    
+} 
+.product{
+    border: 1px solid   none;
+    padding: 12px;
+    margin-top: 24px;
+    border-radius:10px;
+    box-shadow: 12px 12px 8px lightgrey;
+    font-family: 'Lato';
+    font-size:16px;
+    font-weight: 400;
+
+}
+.product-data{
+margin: 14px ;
+
+}
+.product-data p{
+    margin-bottom:0px;
+    margin-top:8px;
+    font-weight: 500;
+}
+.buy-btn{
+    background-color: rgba(253, 204, 143, 0.164);
+    border:none;
+    font-weight: 700;
+    box-shadow:2px 8px 8px lightgrey;
+    border-radius: 8px;
+}
+
+.buy-btn:hover{
+ background-color:rgba(240, 81, 23, 0.849)
+
+}
+.btn-txt{
+    margin-right: 5px;
+}

@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Store from './components/Store/Store';
 
 function App() {
   return (
     <div className="App">
-      <h2>Beats Store</h2>
+          <Store></Store>
     </div>
   );
-}
+  }
 
 export default App;
