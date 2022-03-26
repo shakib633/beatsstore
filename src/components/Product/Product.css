@@ -5,7 +5,7 @@
     
 } 
 .product{
-    border: 1px solid   none;
+    border: 1px solid   lightgrey;
     padding: 12px;
     margin-top: 24px;
     border-radius:10px;
@@ -16,7 +16,7 @@
 
 }
 .product-data{
-margin: 14px ;
+margin: 0px 5px;
 
 }
 .product-data p{
@@ -30,6 +30,7 @@ margin: 14px ;
     font-weight: 700;
     box-shadow:2px 8px 8px lightgrey;
     border-radius: 8px;
+    margin-top:16px;
 }
 
 .buy-btn:hover{
@@ -37,5 +38,4 @@ margin: 14px ;
 
 }
 .btn-txt{
-    margin-right: 5px;
 }

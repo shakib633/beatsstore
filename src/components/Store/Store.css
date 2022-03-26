@@ -5,19 +5,27 @@
 .products-container{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
-    gap: 16px;
-    margin-top: 50px  ;
+    gap: 8px;
+    margin-top: 30px  ;
 }
 .cart{
-    margin-top:80px ;
-    margin-right: 8px;
+    margin-top:50px ;
     background-color: bisque;
-    text-align: none;
-}
-@media screen and (max-width:768px){
-    .products-container{
-        grid-template-columns:.8fr;
-    }
     
+}
+h1{
+    color:rgb(16, 72, 107)
+    
+}
+.motto{
+    color: rgba(0, 128, 0, 0.432);
+    text-shadow: 2px 2px 2px lightgrey;
+    font-weight: 700;
+}
+@media screen and (max-width:1400px){
+    .products-container{
+        grid-template-columns:1fr;
+    }
+   
     
 }
